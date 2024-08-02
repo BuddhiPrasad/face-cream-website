@@ -68,3 +68,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+.h1{
+  @apply font-bold text-4xl xl:text-6xl;
+}
+
+.h2{
+  @apply font-bold text-2xl xl:text-4xl;
+}
+
+.h3{
+  @apply font-bold text-xl xl:text-2xl;
+}
+
+.section-title{
+  @apply font-semibold text-center text-2xl xl:text-4xl; 
+}
+
+
+
+

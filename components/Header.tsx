@@ -9,7 +9,7 @@ import MobileNav from './MobileNav'
 
 const Header = () => {
   return (
-    <header className='py-4 sticky top-0'>
+    <header className='py-4 sticky top-0 bg-secondary'>
         <MaxWrapperContainer>
             <div className='flex justify-between items-center'>
                 <div>
