@@ -1,8 +1,9 @@
+import Cat from "@/components/Cat";
 import Hero from "@/components/Hero";
 import OurProduct from "@/components/OurProduct";
 import { ThemeToggler } from "@/components/ThemeToggler";
 import { Button } from "@/components/ui/button";
-import WheretoBuy from "@/components/wheretoBuy";
+import WheretoBuy from "@/components/WheretoBuy"; 
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <OurProduct/>
       <WheretoBuy/>
+      <Cat/>
       <Button>Click Me</Button>
       {/*
       className="flex min-h-screen flex-col items-center justify-between p-24"

@@ -1,3 +1,4 @@
+import { CustonNav } from '@/type/page'
 import Link from 'next/link'
 import React from 'react'
 
@@ -7,7 +8,7 @@ const Links = [
     {path: '/contact-us', name:'Contact Us'},
 ]
 
-const Nav = ({containerStyle}) => {
+const Nav = ({containerStyle}: CustonNav) => {
   return (
     <nav className={containerStyle}>
       {Links.map((item, index)=>{
